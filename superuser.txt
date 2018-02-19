@@ -1,0 +1,4 @@
+admin
+Goodridgeenv
+pass12345django
+python -m smtpd -n -c DebuggingServer localhost:1025

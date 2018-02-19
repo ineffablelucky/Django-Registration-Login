@@ -1,0 +1,26 @@
+{% extends 'ImageAccount/base.html' %}
+
+{% load static %}
+
+{% block title%} Profile {% endblock%}
+
+
+{% block content %}
+<div class="container">
+  <br></br>
+  <h5>
+    Username : {{user.username}}
+  </h5>
+  <p>First Name : {{user.first_name}}</p>
+  <p>Last Name : {{user.last_name}}</p>
+  <p>Email : {{user.email}}</p>
+  <p>Description : {{user.userprofile.description }}</p>
+  <p>City : {{user.userprofile.city }}</p>
+  <p>Website : {{user.userprofile.website }}</p>
+  <p>Profile Image : <img src= "{{user.userprofile.prof_image.url }}" width = "240"></p>
+  <p></p>
+  <a class="btn btn-primary" href="{% url 'edit_profile' %}">Edit</a>
+</div>
+
+
+{% endblock %}
