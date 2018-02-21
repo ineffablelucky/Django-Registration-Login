@@ -1,6 +1,6 @@
 In this project, i am trying to create a mixture of instagram and facebook where users 
 can save their images and share it with their friends.
-User can upload the images and they have once click-option to select the images which they want to 
+User can upload the images and they have one click-option to select the images which they want to 
 show to the people in their friends list. 
 
 This project is only half done and right now only below mentioned features work:
