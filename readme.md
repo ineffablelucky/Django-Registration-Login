@@ -13,4 +13,4 @@ This project is only half done and right now only below mentioned features work:
 3. Profile page + Edit profile feature
 4. Forgot/Reset password via email
 5. Change password
-6. Restricted access for only logged-in user.
+6. Restricted access for logged-out user.
